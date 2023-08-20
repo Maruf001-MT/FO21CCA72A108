@@ -138,49 +138,49 @@ h1, h2, h3, h4, h5, h6 {
 .new_footer_top .footer_bg {
     position: absolute;
     bottom: 0;
-    background: url("img/surface.svg") no-repeat scroll center 0;
+    background: url("https://maruf001-mt.github.io/FO21CCA72A108/img/surface.svg") no-repeat scroll center 0;
     width: 100%;
     height: 200px;
 }
 
 .new_footer_top .footer_bg .footer_bg_one {
-    background: url("img/vehicle1.gif") no-repeat center center;
+    background: url("https://maruf001-mt.github.io/FO21CCA72A108/img/vehicle1.gif") no-repeat center center;
     width: 150px;
     height: 150px;
     background-size:100%;
     position: absolute;
     bottom: 20px;
     left: 30%;
-    -webkit-animation: myfirst 22s linear infinite;
-    animation: myfirst 25s linear infinite;
+    -webkit-animation: maruf-myfirst 22s linear infinite;
+    animation: maruf-myfirst 25s linear infinite;
 }
 
 .new_footer_top .footer_bg .footer_bg_two {
-    background: url("img/vehicle2.gif") no-repeat center center;
+    background: url("https://maruf001-mt.github.io/FO21CCA72A108/img/vehicle2.gif") no-repeat center center;
     width: 110px;
     height: 110px;
   background-size:100%;
     bottom: 180px;
     left: 45%;
     position: absolute;
-    -webkit-animation: myfirst 30s linear infinite;
-    animation: myfirst 18s linear infinite;
+    -webkit-animation: maruf-myfirst 30s linear infinite;
+    animation: maruf-myfirst 18s linear infinite;
 }
 
 .new_footer_top .footer_bg .footer_bg_three {
-    background: url("img/man.gif") no-repeat center center;
+    background: url("https://maruf001-mt.github.io/FO21CCA72A108/img/man.gif") no-repeat center center;
     width: 90px;
     height: 90px;
     background-size:100%;
     bottom: 130px;
     left: 70%;
     position: absolute;
-    -webkit-animation: myfirst 30s linear infinite;
+    -webkit-animation: maruf-myfirst 30s linear infinite;
     animation: man-rotate 35s linear infinite;
 }
 
 
-@-moz-keyframes myfirst {
+@-moz-keyframes maruf-myfirst {
   0% {
     left: -25%;
   }
@@ -189,7 +189,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-@-webkit-keyframes myfirst {
+@-webkit-keyframes maruf-myfirst {
   0% {
     left: -25%;
   }
@@ -198,7 +198,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-@keyframes myfirst {
+@keyframes maruf-myfirst {
   0% {
     left: -25%;
   }
